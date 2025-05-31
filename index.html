@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adit Chhetri | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="logo">
+            <div class="avatar">AC</div>
+            <h2>Adit Chhetri</h2>
+        </div>
+        <a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+        <a href="aboutme.html" class="nav-link"><i class="fas fa-user"></i> About me</a>
+        <div class="social-links">
+            <a href="https://github.com/Aditdevbhutan" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:bikramjnec@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <span class="menu-button" onclick="openNav()">
+            <i class="fas fa-bars"></i>
+        </span>
+
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Aditdevbhutan">Aditdevbhutan</h1>
+                <p class="subtitle">Passionate Programmer | <span class="typing"></span></p>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="section" id="about">
+                <h2 class="section-title"><i class="fas fa-user-circle"></i> About Me</h2>
+                <div class="card">
+                    <p>I love programming and creating new things. I enjoy working with various programming languages and developing innovative projects.</p>
+                </div>
+            </section>
+            
+            <section class="section" id="projects">
+                <h2 class="section-title"><i class="fas fa-code"></i> Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Python Calculator GUI</h3>
+                            <p>A calculator application built with Python and Tkinter</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Tkinter</span>
+                                <span>GUI</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Aditdevbhutan/py-wapps-by-adit" target="_blank" class="btn">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Digital Clock</h3>
+                            <p>A digital clock application built with Python</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Time</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Aditdevbhutan/py-wapps-by-adit" target="_blank" class="btn">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>School Website</h3>
+                            <p>Website for Phuentsholing Primary School</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://phuentsholingps.netlify.app/" target="_blank" class="btn">
+                                    <i class="fas fa-globe"></i> Live Site
+                                </a>
+                                <a href="https://github.com/Aditdevbhutan/pps-website" target="_blank" class="btn">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section" id="contact">
+                <h2 class="section-title"><i class="fas fa-paper-plane"></i> Find Me Online</h2>
+                <div class="card">
+                    <p>GitHub: <a href="https://github.com/Aditdevbhutan" target="_blank">Aditdevbhutan</a></p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Adit Chhetri. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

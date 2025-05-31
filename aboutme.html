@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Adit Chhetri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="logo">
+            <div class="avatar">AC</div>
+            <h2>Adit Chhetri</h2>
+        </div>
+        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+        <a href="aboutme.html" class="nav-link active"><i class="fas fa-user"></i> About me</a>
+        <div class="social-links">
+            <a href="https://github.com/Aditdevbhutan" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:bikramjnec@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <span class="menu-button" onclick="openNav()">
+            <i class="fas fa-bars"></i>
+        </span>
+
+        <main class="container about-container">
+            <div class="profile-card">
+                <div class="profile-header">
+                    <div class="profile-img-container">
+                        <img src="adit.jpeg" alt="Adit Chhetri" class="profile-img">
+                    </div>
+                    <h1 class="profile-name">Adit Chhetri</h1>
+                    <p class="profile-title">Developer & Programmer</p>
+                </div>
+                
+                <div class="profile-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>bikramjnec@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>17324772</p>
+                    </div>
+                </div>
+
+                <div class="profile-section">
+                    <h3><i class="fas fa-code"></i> Projects</h3>
+                    <ul class="project-list">
+                        <li>
+                            <div class="project-list-item">
+                                <h4>Python Projects</h4>
+                                <a href="https://github.com/Aditdevbhutan/py-wapps-by-adit" target="_blank" class="btn">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-list-item">
+                                <h4>PPS Website</h4>
+                                <a href="https://phuentsholingps.netlify.app/" target="_blank" class="btn">
+                                    <i class="fas fa-globe"></i> Live Site
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="profile-section">
+                    <h3><i class="fas fa-laptop-code"></i> Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <span>HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Adit Chhetri. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
